@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="title">How\'s The\nWeather?</string>
+    <string name="default_button_text">No Selected Location</string>
 </resources>

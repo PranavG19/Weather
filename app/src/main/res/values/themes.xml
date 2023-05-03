@@ -13,4 +13,14 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ButtonStyle" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:text">@string/default_button_text</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:backgroundTint">@color/dark_gray</item>
+        <item name="android:onClick">onLocationButtonClick</item>
+    </style>
 </resources>
