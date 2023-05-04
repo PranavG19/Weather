@@ -59,4 +59,9 @@ class MainActivity : AppCompatActivity() {
             // TODO: Toast explaining that the location was invalid!
         }
     }
+
+    companion object
+    {
+        val URL : String = "https://api.openweathermap.org/data/2.5/weather?q=[TARGET]&APPID=3d1c8d6c748afd572b690785579f6932"
+    }
 }
