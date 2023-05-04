@@ -14,7 +14,7 @@ import java.util.regex.Pattern
 class Weather {
 
     private var jsonString : String = ""
-    private val PATTERN = Pattern.compile("\\w+, \\w+")
+    private val PATTERN = Pattern.compile("^(?:[a-zA-Z]+\\s*)+,\\s*(?:[a-zA-Z]+\\s*)+\$")
     private lateinit var matcher : Matcher
     private var exceptionFlag : Boolean = false
 
