@@ -60,8 +60,15 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun getWeather() : Weather {
+        return weather
+    }
+
     companion object
     {
         val URL : String = "https://api.openweathermap.org/data/2.5/weather?q=[TARGET]&APPID=3d1c8d6c748afd572b690785579f6932"
+
+        //Link gets 5 days forecast
+        val URL_FORCAST = "https://api.openweathermap.org/data/2.5/forecast?q=[TARGET]&APPID=3d1c8d6c748afd572b690785579f6932"
     }
 }
