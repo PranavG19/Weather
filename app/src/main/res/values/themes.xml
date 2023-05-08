@@ -29,5 +29,5 @@
         <item name = "android:layout_height">0dp</item>
         <item name = "android:layout_weight">2</item>
     </style>
->>>>>>> 91c716d9d3de6237eff5cb728fe50cd9ddbc72d5
+
 </resources>
